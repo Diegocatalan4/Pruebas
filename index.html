@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <h2>Iniciar Sesión</h2>
+        <form onsubmit="validarFormulario(event)">
+            <input type="text" id="usuario" placeholder="Usuario">
+            <input type="password" id="contraseña" placeholder="Contraseña">
+            <button type="submit">Ingresar</button>
+        </form>
+    </div>
+
+    <!-- Fondo oscuro para el cuadro de diálogo -->
+    <div id="fondo"></div>
+
+    <div id="fondo"></div>
+    <div id="dialogo">
+        <p id="mensaje-dialogo"></p>
+        <button id="btnAceptar">Aceptar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
